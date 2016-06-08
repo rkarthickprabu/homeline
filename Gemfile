@@ -60,7 +60,7 @@ group :development do
 end
 
 group :production do
-  #gem 'pg',             '0.17.1'
+  gem 'pg',             '0.17.1'
 
   #gem 'ruby', '2.3.1'
 
