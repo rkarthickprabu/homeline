@@ -5,9 +5,13 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.6'
 
 #ruby versuon
-gem ruby '2.3.1'
+#gem 'ruby', '2.3.1'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.13', '< 0.5'
+
+# Use Puma as the web server
+gem 'puma'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -59,7 +63,7 @@ end
 group :production do
   #gem 'pg',             '0.17.1'
 
-  gem ruby '2.3.1'
+  #gem 'ruby', '2.3.1'
 
   gem 'mysql2', '>= 0.3.13', '< 0.5'
   #This rails_12factor gem is used by Heroku to serve static assets such as images and stylesheets
