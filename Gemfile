@@ -1,13 +1,12 @@
 source 'https://rubygems.org'
-
+#ruby versuon
+ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 
-#ruby versuon
-ruby '2.3.1'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.3.13', '< 0.5'
+#gem 'mysql2', '>= 0.3.13', '< 0.5'
 
 # Use Puma as the web server
 gem 'puma'
@@ -65,7 +64,7 @@ group :production do
 
   #gem 'ruby', '2.3.1'
 
-  gem 'mysql2', '>= 0.3.13', '< 0.5'
+  #gem 'mysql2', '>= 0.3.13', '< 0.5'
   #This rails_12factor gem is used by Heroku to serve static assets such as images and stylesheets
   gem 'rails_12factor', '0.0.2'
 end
